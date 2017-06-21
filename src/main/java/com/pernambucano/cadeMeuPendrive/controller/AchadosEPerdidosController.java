@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class AchadosEPerdidosController {
 
     @RequestMapping("/")
-    public String listItensPerdidos(){
+    public String home(){
         return "index";
     }
 
